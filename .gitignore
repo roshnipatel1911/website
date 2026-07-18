@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+
+# Docker
+*.log
+
+# Ansible
+*.retry
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Env files
+.env
