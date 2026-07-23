@@ -7,6 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "Step 1 Starting"
-      - run: cat Dockerfile
-      - run: echo "Step 2 Done"
+      - run: ls
+      - run: docker build -t myapp:v1 .
